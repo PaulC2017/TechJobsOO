@@ -11,9 +11,23 @@
         <label asp-for="EmployerID"></label>
         <select asp-for="EmployerID" asp-items="Model.Employers"></select>
     </div>
+    <div class="form-group">
+        <label asp-for="LocationID"></label>
+        <select asp-for="LocationID" asp-items="Model.Locations"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="CoreCompetencyID"></label>
+        <select asp-for="CoreCompetencyID" asp-items="Model.CoreCompetencies"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="PositionTypeID"></label>
+        <select asp-for="PositionTypeID" asp-items="Model.PositionTypes"></select>
+    </div>
 
-    @{ 
+    @{
         // TODO #5 - Create <select> dropdowns for other job fields (outside of this @{ } block)
+        // TODO #5 - Semi Completed - Core Competencies  and Positin Type  drop down box is to high - needs to be fixed
+        // TODO #5 - also need to fix labels for core competencies and position type that show up on the web pahe
     }
 
     <input type="submit" value="Add Job" />
