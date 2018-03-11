@@ -53,7 +53,7 @@ namespace TechJobs.Controllers
             // new Job and add it to the JobData data store. Then
             // redirect to the Job detail (Index) action/view for the new Job.
 
-            //Employer assignEmployerID = new Employer();
+            
 
           
             if (ModelState.IsValid)
@@ -72,9 +72,11 @@ namespace TechJobs.Controllers
                 };
 
                 jobData.Jobs.Add(newJob);
-                return View("Index",newJob.ID);
+                return View("Index", newJob);
+                
+                //return RedirectToAction("Index",  new { id = newJob.ID });
             }
-
+             
             return View("New", newJobViewModel); 
         }
     }
