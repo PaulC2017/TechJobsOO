@@ -52,10 +52,11 @@ namespace TechJobs.Controllers
             // TODO #6 - Validate the ViewModel and if valid, create a 
             // new Job and add it to the JobData data store. Then
             // redirect to the Job detail (Index) action/view for the new Job.
+            // TODO #6 - Completed
 
-            
 
-          
+
+
             if (ModelState.IsValid)
 
                 
