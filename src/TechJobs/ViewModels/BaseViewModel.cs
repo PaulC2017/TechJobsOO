@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using TechJobs.Models;
 namespace TechJobs.ViewModels
 {
-    public class BaseViewModel 
+    public class BaseViewModel
     {
 
         // View title
@@ -13,7 +13,7 @@ namespace TechJobs.ViewModels
 
         // All columns, for display
         public List<JobFieldType> Columns { get; set; }
-        
+
 
         public List<JobFieldType> PopListOfAllColumns()  //JobFieldsViewModel()
         {
@@ -28,7 +28,7 @@ namespace TechJobs.ViewModels
 
             return Columns;
         }
-        
+
 
     }
 }
