@@ -1,0 +1,9 @@
+Description
+
+This project created an application that tracks Technology Job openings by geographic area and company.  Users can add job openings,  search the list of job openings based on keywords, company and location or display all of the jobs on the list.
+
+
+Languages and Technologies
+
+This project uses C#, ASP.NET, EntityFrameWorkCore and Razor for the routing, templates and controllers.  MySQL is used to manage the data base housing the job openings data.
+
